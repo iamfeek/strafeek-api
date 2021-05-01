@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/homepage-settings",
+      "handler": "homepage-settings.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/homepage-settings/count",
+      "handler": "homepage-settings.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/homepage-settings/:id",
+      "handler": "homepage-settings.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/homepage-settings",
+      "handler": "homepage-settings.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/homepage-settings/:id",
+      "handler": "homepage-settings.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/homepage-settings/:id",
+      "handler": "homepage-settings.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
